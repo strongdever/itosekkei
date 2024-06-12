@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Oswald:wght@200;300;400;500;600;700&family=Public+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* zen-maru-gothic-regular - japanese */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Zen Maru Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./zen-maru-gothic-v16-japanese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* zen-maru-gothic-500 - japanese */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Zen Maru Gothic';
+	font-style: normal;
+	font-weight: 500;
+	src: url('./zen-maru-gothic-v16-japanese-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* zen-maru-gothic-700 - japanese */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Zen Maru Gothic';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./zen-maru-gothic-v16-japanese-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* zen-maru-gothic-900 - japanese */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Zen Maru Gothic';
+	font-style: normal;
+	font-weight: 900;
+	src: url('./zen-maru-gothic-v16-japanese-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }

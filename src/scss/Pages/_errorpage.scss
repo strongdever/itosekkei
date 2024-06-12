@@ -1,0 +1,27 @@
+.error-page {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 12rem;
+    padding-bottom: 12.6rem;
+
+    .p_breadcrumbs_section {
+        position: relative;
+        width: 100%;
+        margin-bottom: 5.2rem;
+        ol {
+            position: relative;
+            display: flex;
+            column-gap: 0.8rem;
+        }
+    }
+
+    .btn_wrap {
+        margin-top: 3.2rem;
+
+        .btn  {
+            height: 4.4rem;
+            padding: 0.8rem 3.2rem;
+        }
+    }
+}
