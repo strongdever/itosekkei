@@ -75,11 +75,13 @@ input[type="password"],
 select,
 textarea {
     position: relative;
-    background-color: #F1F1F1;
-    border: transparent;
+    border: 1px solid #aaa;
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 2.0rem 1.6rem;
+    padding: 1.2rem 1.6rem;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
     width: 100%;
     text-align: left;
 }
@@ -90,7 +92,7 @@ input[type="tel"],
 input[type="number"],
 input[type="password"],
 select {
-    height: 5.6rem;
+    height: 5.2rem;
 }
 
 input[type="text"]:focus,

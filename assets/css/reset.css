@@ -498,4 +498,28 @@ fieldset {
   }
 }
 
+@-webkit-keyframes taglineClipPath {
+  from {
+    -webkit-clip-path: inset(0 100% 0 0);
+            clip-path: inset(0 100% 0 0);
+  }
+  to {
+    -webkit-clip-path: inset(0);
+            clip-path: inset(0);
+    opacity: 1;
+  }
+}
+
+@keyframes taglineClipPath {
+  from {
+    -webkit-clip-path: inset(0 100% 0 0);
+            clip-path: inset(0 100% 0 0);
+  }
+  to {
+    -webkit-clip-path: inset(0);
+            clip-path: inset(0);
+    opacity: 1;
+  }
+}
+
 /*# sourceMappingURL=reset.css.map */

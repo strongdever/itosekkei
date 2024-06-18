@@ -92,8 +92,10 @@ $desktop: 1024px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height: 65px;
     padding: 0 60px;
+    background: #e9e9e9;
 
     @media (max-width: $desktop - 1px) {
         padding: 10px 20px;
@@ -217,7 +219,7 @@ $desktop: 1024px;
     .dropdown-menu {
         @media (min-width: $desktop) {
             position: absolute;
-            top: 8.8rem;
+            top: 6.5rem;
             right: 0;
             left: 0;
             width: fit-content;
@@ -233,6 +235,9 @@ $desktop: 1024px;
 
             li {
                 color: #FFF;
+                a {
+                    align-items: flex-start;
+                }
             }
         }
 
@@ -302,12 +307,17 @@ $desktop: 1024px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         row-gap: 0.2rem;
         width: 100%;
         white-space: nowrap;
         padding: 0.5rem 2.0rem;
         transition: 0.25s;
+        font-size: 2.0rem;
+
+        @include media("sp") {
+            font-size: 1.8rem;
+        }
 
         &:hover {
             color: $orange_color;

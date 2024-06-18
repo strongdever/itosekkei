@@ -175,3 +175,14 @@
     opacity: 1;
   }
 }
+
+@keyframes taglineClipPath {
+  from {
+    clip-path: inset(0 100% 0 0)
+  }
+
+  to {
+    clip-path: inset(0);
+    opacity: 1
+  }
+}

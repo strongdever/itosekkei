@@ -18,11 +18,109 @@
 }
 
 
-.main-form {
+.contactus-section {
+    .container {
+        max-width: 108rem;
+    }
+
+    .top-desc {
+        margin-bottom: 4.4rem;
+    }
+
     .form-wrapper {
         display: flex;
         flex-direction: column;
         row-gap: 2.4rem;
+        margin-bottom: 6.4rem;
+    }
+
+    .form-row {
+        position: relative;
+        width: 100%;
+        display: flex;
+        column-gap: 1.6rem;
+
+        &.with-inputbox {
+            .label {
+                margin-top: 1.0rem;
+            }
+        }
+
+        &.privacy {
+            align-items: center;
+            justify-content: center;
+            column-gap: 0.6rem;
+
+            #privacy-policy {
+                margin-top: 0.1rem;
+            }
+        }
+    }
+
+    .btn {
+        margin: 0 auto;
+        font-family: inherit;
+        font-size: inherit;
+    }
+
+    .btn-blue {
+        background-color: $dodgerblue;
+        border: unset;
+
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            display: none;
+        }
+
+        &:hover {
+            color: $white_color;
+            opacity: 0.8;
+        }
+    }
+
+    .label {
+        width: 26rem;
+        height: fit-content;
+        flex-shrink: 0;
+
+        span {
+            display: inline;
+        }
+    }
+
+    .input-wrapper {
+        width: 100%;
+
+        &.horizontal-wrapper {
+            justify-content: flex-start;
+            column-gap: 4.4rem;
+        }
+    }
+
+    .input-item {
+        display: flex;
+        column-gap: 0.4rem;
+        align-items: center;
+    }
+
+    .input-label {
+        width: 7.1rem;
+        flex-shrink: 0;
+    }
+
+    .width1 {
+        max-width: 14rem;
+    }
+
+    .width2 {
+        max-width: 64rem;
+    }
+
+    .width3 {
+        max-width: 58rem;
     }
 
     .vertical-wrapper {
@@ -36,8 +134,12 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        align-items: center;
         column-gap: 1.6rem;
+    }
+
+    #province {
+        max-width: 36.2rem;
     }
 
     .input-privacy {
@@ -112,6 +214,12 @@
         }
     }
 
+    label {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     .required {
         width: fit-content;
         position: relative;
@@ -128,10 +236,15 @@
     }
 }
 
+input[type=radio] {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
 input[type=checkbox] {
     position: relative;
     border-radius: 4px;
-    border: 1.5px solid #000;
+    border: 1.5px solid #333;
     background: none;
     cursor: pointer;
     line-height: 0;
@@ -142,7 +255,7 @@ input[type=checkbox] {
     width: 2rem !important;
     -webkit-appearance: none;
     opacity: .5;
-    margin: 0 0.8rem 0 0;
+    margin: 0.3rem 0.8rem 0 0;
 }
 
 input[type=checkbox]:hover {
@@ -150,7 +263,7 @@ input[type=checkbox]:hover {
 }
 
 input[type=checkbox]:checked {
-    background-color: $green_color;
+    background-color: $dodgerblue;
     border: 1.5px solid #FFF;
     opacity: 1;
 }
